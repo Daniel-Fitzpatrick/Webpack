@@ -5,9 +5,10 @@ const path = require('path');
 module.exports = merge(common, {
 	mode: 'development',
 	devServer: {
-		contentBase: path.join(__dirname, 'public'),
+		contentBase: path.resolve(__dirname, 'public'),
 		watchContentBase: true,
 		compress: true,
-		overlay: true
+		overlay: true,
+		port: '9000'
 	}
 });
