@@ -1,7 +1,10 @@
-import { login } from './login'
+// @preserve Test Preserve Comment
+// @license Test License Comment
 
-login('admin', 'myPassword')
+import { login } from './login';
 
-document.write('Hello Daniel :), Lets learn Webpack!!!!')
+login('admin', 'myPassword');
 
-console.log('App Loaded')
+document.write('Hello Daniel :), Lets learn Webpack!!!!');
+
+console.log('App Loaded');

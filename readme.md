@@ -21,3 +21,9 @@
     * Start for Dev
     * Build for Prod
 
+
+
+
+Things to learn:
+Chunking
+Hot Module Replacement

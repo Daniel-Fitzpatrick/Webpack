@@ -1,1 +1,1 @@
-console.log('Logging from Utils!')
+console.log('Logging from Utils!');
